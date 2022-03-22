@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>hi</p>
+
+    <h2>
+      Total Amount of stakes:
+      <div id="totalStakes"></div>
+    </h2>
+    <h2>
+      Account balance:
+      <div id="totalBalance"></div>
+    </h2>
+    <h2>Stake Tokens</h2>
+    <input type="number" id="stake" placeholder="Amount of tokens to stake" />
+    <button onclick="stake()">Stake tokens</button>
+    <h2>Buy Tokens <small>1eth = 1000tokens</small></h2>
+    <input type="number" id="token" placeholder="Amount of eth" />
+    <button onclick="buyToken()">Buy tokens</button>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="inde.js"></script>
+  </body>
+</html>
